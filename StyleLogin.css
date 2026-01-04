@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html body{
+    background-color: #212121;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f562aaf4-5dbb-4603-a32b-6ef6c2230136/dh0w8qv-9d8ee6b2-b41a-4681-ab9b-8a227560dc75.jpg/v1/fill/w_1280,h_720,q_75,strp/the_netflix_login_background__canada__2024___by_logofeveryt_dh0w8qv-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6Ii9mL2Y1NjJhYWY0LTVkYmItNDYwMy1hMzJiLTZlZjZjMjIzMDEzNi9kaDB3OHF2LTlkOGVlNmIyLWI0MWEtNDY4MS1hYjliLThhMjI3NTYwZGM3NS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.FScrpAAFnKqBVKwe2syeiOww6mfH6avq-DRHZ_uFVNw);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+body ::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgb(0, 0, 0, 0.1);
+    z-index: -1;
+}
+.LoginNav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+#Netflix{
+   color: #E50914;
+   font-size: 200px;  
+   padding-right: 30%;
+}
+
+.Login{
+    font-size: 70px;
+    padding-top: 80px;
+    padding-right: 9%;
+    display: flex;
+    gap: 80px;
+    
+}
+select{
+    font-size: 80px;
+    padding-left: 150px;
+    border-radius: 30px;
+    background-image: url(logo.png);
+    background-size: 60px;
+    border: 4px solid white;
+    background-position: 50px center;
+    height: 130px;
+    width: 500px;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-color: transparent;
+    color: white;
+}
+
+#Signin{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    border: 4px solid white;
+    background-color: #E50914;
+    border-radius: 30px;
+    height: 130px;
+    width: 400px;
+    text-align: center;
+}
+
+.TextHome{
+    color: white;
+   font-size: 115px;
+    padding-top: 470px;
+}
+
+#text1{
+    font-weight: 800;
+}
+#text2{
+    font-weight: 800;
+}
+
+#text3{
+    font-size: 80px;
+    color: white;
+    padding-top: 20px;
+}
+p{
+    color: white;
+    font-size: 68px;
+    padding: 90px;
+}
+
+#input{
+    font-size: 140px;
+    width: 1600px;
+    background: transparent;
+    border-radius: 20px;
+    padding-bottom: 60px;
+    padding-left: 60px;
+    border: 2px solid white;
+
+}
+input::placeholder{
+    font-size: 60px;
+    color: grey;
+
+}
+
+#button{
+    height: 250px;
+    width: 600px;
+     font-size: 80px;
+    background-color: #E50914;
+    color: white;
+    border-radius: 20px;
+    padding: 30px 40px;
+}
+.emailinput{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 30px;
+}
