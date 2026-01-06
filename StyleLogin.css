@@ -5,10 +5,11 @@
      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-html body{
+.hero{
+    margin-top: 2px;
     background-color: #212121;
     height: 100vh;
-    overflow: hidden;
+    overflow-y: auto;
     background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f562aaf4-5dbb-4603-a32b-6ef6c2230136/dh0w8qv-9d8ee6b2-b41a-4681-ab9b-8a227560dc75.jpg/v1/fill/w_1280,h_720,q_75,strp/the_netflix_login_background__canada__2024___by_logofeveryt_dh0w8qv-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6Ii9mL2Y1NjJhYWY0LTVkYmItNDYwMy1hMzJiLTZlZjZjMjIzMDEzNi9kaDB3OHF2LTlkOGVlNmIyLWI0MWEtNDY4MS1hYjliLThhMjI3NTYwZGM3NS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.FScrpAAFnKqBVKwe2syeiOww6mfH6avq-DRHZ_uFVNw);
     background-size: cover;
     background-position: center;
@@ -16,13 +17,14 @@ html body{
     position: relative;
 }
 
-body ::before{
+ .hero ::before{
     content: "";
     position: absolute;
     inset: 0;
     background: rgb(0, 0, 0, 0.1);
     z-index: -1;
 }
+
 .LoginNav{
     display: flex;
     align-items: center;
@@ -127,4 +129,185 @@ input::placeholder{
    align-items: center;
    justify-content: center;
    gap: 30px;
+}
+
+
+.fakecurve{
+    width: 100%;
+    height: 60px;
+    margin-top: -60px;
+    border-top: 3px solid transparent;
+    border-radius: 100% 100%;
+    background: linear-gradient(
+        to right,
+        #ff2f92,
+        #5b6cff,
+        #ff2f92
+    );
+    transform: translateY(40px);
+}
+
+section {
+    background-color: #000000;
+    margin-top: -110px;
+    z-index: 1;
+     
+   
+}
+.trendingtxt1{
+    color: white;
+    font-size: 90px;
+    padding-top: 400px;
+    padding-left: 650px;
+    font-weight: 500;
+}
+
+
+.arrowkey{
+    height: 200px;
+    width: 200px;
+   background-color: #E50914;
+
+
+}
+
+.movies{
+    display: flex;
+    overflow-x: auto;
+scroll-behavior: smooth;
+-ms-overflow-style: none;
+    padding-left: 700px;
+     gap: 300px;
+     margin-right: 12%;
+     
+}
+
+.movies ::-webkit-scrollbar{
+    display: none;
+}
+
+.card {
+    padding-top : 100px;
+    position: relative;
+    min-width: 750px;
+    height: 1100px;
+    border-radius: 50px;
+    flex: 0 0 auto;
+    overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+ 
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+   transition: transform 0.4s ease;
+   border-radius: 7%;
+}
+
+.card :hover{
+     transform: translateY(-6px) scale(1.10);
+  box-shadow: 0 18px 35px rgba(0,0,0,0.6);
+}
+
+
+/* .scroll-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgb(0, 0,0.6);
+    color: #fff;
+    background-color: red;
+    border: none;
+    font-size: 50px;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 5;
+
+}
+
+.scroll-btn left{ left: 10px;}
+.scroll-btn right{ right: 10px;} */
+
+.MoreReasontxt{
+    color: white;
+    font-size: 90px;
+    padding-top: 300px;
+    padding-left: 650px;
+    font-weight: 500;
+}
+
+.MoreReason{
+    position: relative;
+    display: flex;
+    overflow-x: auto;
+    scrollbar-width: none;
+    gap: 60px;
+    padding-top: 100px;
+    padding-left: 580px;
+    
+}
+
+.box{
+    height: 1200px;
+    width: 990px;
+    background-color: #1C1A33;
+    border-radius: 5%;
+}
+
+.box h3{
+    padding-top: 150px;
+    padding-left: 30px;
+    color: white;
+    font-size: 80px;
+}
+icon{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 280px;
+    bottom: 100px;
+}
+
+.icon i{
+    position: absolute;
+    font-size: 200px;
+    place-items: right;
+   padding-left: 700px;
+   bottom: 100px;
+   opacity: 0.8;
+   /* color: #E50914; */
+    background: linear-gradient(to right,#872370, #E50914,#F58DBF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
+.Frequent h2{
+      color: white;
+    font-size: 90px;
+    padding-top: 300px;
+    padding-left: 550px;
+    font-weight: 500;
+}
+
+.faq{
+    font-size: 90px;
+    padding: 90px 90px;
+    width: 80%;
+    height: 300px;
+    margin-top:100px;
+   margin-left: 10%;
+    color: white;
+    background-color: #414141   ;
+    overflow: hidden;
+    gap: 30px;
+}
+
+#txt5{
+    margin-top: 200px;
 }
