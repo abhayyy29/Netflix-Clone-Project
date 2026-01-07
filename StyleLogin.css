@@ -311,3 +311,225 @@ icon{
 #txt5{
     margin-top: 200px;
 }
+
+.lsttxt{
+    font-size: 70px;
+    color: white;
+    margin-top: 300px;
+    padding-left: 1000px;
+}
+
+.lsttxt a{
+    color: white;
+}
+
+.footer{
+    font-size: 60px;
+    color: white;
+    margin: auto;
+
+
+}
+.footer-question{
+    padding-left: 800px;
+    margin-top: 1%;
+}
+.footer-nav{
+    padding-left: 800px;
+     display: grid;
+       grid-template-columns: repeat(4, 1fr);
+       gap: 40px;
+}
+
+.footer-nav a{
+    color: white;
+}
+.Language1{
+    background-color: #414141;
+}
+.Langslct{
+    padding-right: 800px;
+    margin-top: 2%;
+    margin-left: 800px;
+    
+}
+.footer-country{
+    padding-left: 800px;
+    margin-top: 1%;
+}
+.hero1{
+    margin-top: 2px;
+    height: 100%;
+   overflow: hidden;
+    position: relative;
+      background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f562aaf4-5dbb-4603-a32b-6ef6c2230136/dh0w8qv-9d8ee6b2-b41a-4681-ab9b-8a227560dc75.jpg/v1/fill/w_1280,h_720,q_75,strp/the_netflix_login_background__canada__2024___by_logofeveryt_dh0w8qv-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6Ii9mL2Y1NjJhYWY0LTVkYmItNDYwMy1hMzJiLTZlZjZjMjIzMDEzNi9kaDB3OHF2LTlkOGVlNmIyLWI0MWEtNDY4MS1hYjliLThhMjI3NTYwZGM3NS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.FScrpAAFnKqBVKwe2syeiOww6mfH6avq-DRHZ_uFVNw); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+   
+}
+.SigninBody{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero1::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+     background: rgb(0, 0, 0,0.7);
+    z-index: 1; 
+ } 
+ 
+  .txt01{
+    position: relative;
+    color: #d6121c;
+    font-size: 190px;
+    font-weight: 720;
+    padding: 50px 600px;
+    z-index: 2;
+ }
+ .signin-box{
+    display: grid;
+    font-size: 70px;
+    color: white;
+     position: relative;
+    z-index: 2;
+    border-radius: 10px;
+    height: 2300px;
+    width: 1900px;
+   margin-left: 32%;
+   background: rgb(0, 0,0,0.6);
+ }
+ .sign-intxt{
+    padding-top: 150px;
+    padding-left: 200px;
+    font-weight: 700;
+    position: relative;
+    z-index: 2;
+    font-size: 80px;
+    color: white;
+ }
+.inp{
+    margin-top: 100px;
+     position: relative;
+    z-index: 2;
+    font-size: 60px;
+   background-color: #111413;
+   height: 220px;
+   padding-left: 40px;
+   width: 80%;
+   margin-left: 10%;
+   border-radius: 20px;
+   border: 3px solid white;
+}
+.btn{
+     position: relative;
+    z-index: 2;
+    font-size: 60px;
+    color: white;
+    background-color: #E50914;
+    height: 220px;
+    width: 80%;
+     border: 3px solid white;
+    margin-top: 100px;
+    margin-left: 10%;
+    border-radius: 15px;
+    
+}
+.btn1{
+     position: relative;
+    z-index: 2;
+    font-size: 60px;
+    color: white;
+    background-color: #282B2D;
+    height: 220px;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 20px;
+     border: 3px solid white;
+
+}
+#p1{
+     position: relative;
+    z-index: 2;
+    font-size: 70px;
+    color: white;
+   display: flex;
+   justify-content: center;
+}
+
+.frgt{
+      position: relative;
+    z-index: 2;
+    font-size: 70px;
+    color: white;
+      display: flex;
+   justify-content: center;
+   margin-top: 40px;
+}
+.inp1{
+  position: relative;
+  z-index: 2;
+  font-size: 70px;
+  margin-top: 100px;
+ margin-left: 10%;
+ display: flex;
+ gap: 20px; 
+}
+
+
+#p2{
+     position: relative;
+    z-index: 2;
+    font-size: 70px;
+    color: white;
+    margin-left: 6%;
+    margin-bottom: 80px;
+}
+#check{
+   height: 60px;
+   width: 80px;
+   margin-top: 15px;
+    cursor: pointer;
+}
+.sec2{
+    margin-top: 100px;
+}
+
+.footer1{
+ 
+    font-size: 60px;
+    color: white;
+    margin-top: 100px;
+}
+.footer-question1{
+    padding-left: 800px;
+    margin-top: 1%;
+}
+.footer-nav1{
+    padding-left: 800px;
+     display: grid;
+       grid-template-columns: repeat(4, 1fr);
+       gap: 40px;
+}
+
+.footer-nav1 a{
+    color: white;
+}
+.Language12{
+    background-color: #414141;
+}
+.Langslct1{
+    padding-right: 800px;
+    margin-top: 2%;
+    margin-left: 800px;
+    
+}
+.footer-country1{
+    padding-left: 800px;
+    margin-top: 1%;
+}
+
+.hero2{
+    background-color: #000000;
+}
