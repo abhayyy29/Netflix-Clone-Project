@@ -434,6 +434,7 @@ icon{
     margin-top: 100px;
     margin-left: 10%;
     border-radius: 15px;
+    cursor: pointer;
     
 }
 .btn1{
@@ -447,6 +448,7 @@ icon{
     margin-left: 10%;
     border-radius: 20px;
      border: 3px solid white;
+     cursor: pointer;
 
 }
 #p1{
